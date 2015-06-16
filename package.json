@@ -1,0 +1,27 @@
+{
+  "name": "laravel-elixir-aglio",
+  "version": "0.0.1",
+  "description": "Laravel Elixir wrapper around Aglio Gulp task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "aglio",
+    "gulp-aglio",
+    "api-blueprint",
+    "laravel-elixir"
+  ],
+  "author": "João Machado",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-aglio": "0.0.7",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "laravel-elixir": "^2.3.12"
+  }
+}
