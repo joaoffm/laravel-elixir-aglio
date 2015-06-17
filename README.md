@@ -72,3 +72,7 @@ Route::get('/blueprint/api', function () {
    return View::make('blueprint.api') 
 });
 ```
+
+### License
+
+Laravel Elixir Aglio is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
