@@ -41,13 +41,21 @@ For overriding the `resources/assets` part, create a `elixir.json` and change th
 ```
 
 #### Output
-This will output the processed files to `resources/views/blueprint`. If you'd like to output to a different directory then you may override this as well:
+This will output the processed files to `resources/views/blueprint`. If you'd like to output folder within `resource/views` to a different directory then you may override this as well:
 
 ```javascript
 mix.aglio(
     "markdown/*.md",
     "blueprint"
 );
+```
+
+For overriding the `resources/views` part, create a `elixir.json` and change the `outputDir` (do not forget the trailing slash):
+
+```javascript
+{
+    "outputDir":    "resources/views/"
+}
 ```
 
 #### Options
